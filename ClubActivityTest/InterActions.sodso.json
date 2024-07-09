@@ -1,0 +1,12 @@
+{
+  "presetName": "InterActions",
+  "actions": [],
+  "disableCollider": false,
+  "lockedInActions1": [],
+  "lockedInActions2": [],
+  "physicsActions": [],
+  "fileType": "InteractableActionsPreset",
+  "name": "InterActions",
+  "type": "InteractableActionsPreset",
+  "copyFrom": null
+}

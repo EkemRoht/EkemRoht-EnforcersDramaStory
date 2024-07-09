@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "fileOrder": [
+    "REF:TestMeetUpEvent",
+    "REF:testGroup",
+    "REF:Status",
+    "REF:InterActions"
+  ],
+  "version": 1
+}

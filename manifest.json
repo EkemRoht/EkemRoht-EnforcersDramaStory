@@ -1,0 +1,7 @@
+{
+"name": "EnforcersDramaStory",
+"version_number": "1.0",
+"description": "Adds a new murder case to SOD.",
+"website_url": "",
+"dependencies": ["Piepieonline-CommunityCaseLoader-0.1.2"]
+}

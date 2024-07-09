@@ -1,0 +1,182 @@
+{
+  "presetName": "EnforcerHunter",
+  "notes": "EnforcerHunter",
+  "disabled": false,
+  "compatibleWith": [
+    "REF:MurderPreset|Sniper"
+  ],
+  "baseDifficulty": 0,
+  "maximumPotentialScore": 0,
+  "updateThis": false,
+  "pickRandomScoreRange": {
+    "x": 0,
+    "y": 2
+  },
+  "murdererTraitModifiers": [
+    {
+      "rule": "RuleType",
+      "traitList": [
+        "REF:CharacterTrait|Char-Focused",
+        "REF:CharacterTrait|Char-Hostile",
+        "REF:CharacterTrait|Secret-KilledSomeone",
+        "REF:CharacterTrait|Principle-DistrustOfAuthority",
+        "REF:CharacterTrait|Secret-CrimeSyndicate",
+        "REF:CharacterTrait|Affliction-Sociopath"
+      ],
+      "mustPassForApplication": false,
+      "scoreModifier": 6,
+      "copyFrom": null
+    },
+    {
+      "rule": "RuleType",
+      "traitList": [
+        "REF:CharacterTrait|Interest-Guns",
+        "REF:CharacterTrait|Char-Patient",
+        "REF:CharacterTrait|Char-Coordinated",
+        "REF:CharacterTrait|Char-Reckless",
+        "REF:CharacterTrait|Char-Cautious",
+        "REF:CharacterTrait|Char-Paranoid",
+        "REF:CharacterTrait|Char-Detached",
+        "REF:CharacterTrait|Char-Guarded",
+        "REF:CharacterTrait|Char-Stoic",
+        "REF:CharacterTrait|Affliction-Sadistic"
+      ],
+      "mustPassForApplication": false,
+      "scoreModifier": 2,
+      "copyFrom": null
+    },
+    {
+      "rule": 2,
+      "traitList": [
+        "REF:CharacterTrait|Principle-TrustOfAuthority",
+        "REF:CharacterTrait|Char-Impulsive",
+        "REF:CharacterTrait|Char-Clumsy",
+        "REF:CharacterTrait|Affliction-ShortSighted",
+        "REF:CharacterTrait|Char-Empathetic",
+        "REF:CharacterTrait|Char-Coward",
+        "REF:CharacterTrait|Principle-Patriotic",
+        "REF:CharacterTrait|Char-LevelHeaded",
+        "REF:CharacterTrait|Quirk-Forgetful"
+      ],
+      "mustPassForApplication": 1,
+      "scoreModifier": -20,
+      "copyFrom": null
+    }
+  ],
+  "murdererJobModifiers": [
+    {
+      "jobs": [
+        "REF:OccupationPreset|Unemployed"
+      ],
+      "jobBoost": 10,
+      "copyFrom": null
+    }
+  ],
+  "murdererCompanyModifiers": [
+    {
+      "companies": [
+        "REF:CompanyPreset|BlackmarketSyncClinic",
+        "REF:CompanyPreset|BlackmarketTrader",
+        "REF:CompanyPreset|GamblingDen",
+        "REF:CompanyPreset|LoanShark",
+        "REF:CompanyPreset|WeaponsDealer"
+      ],
+      "mininumEmployees": 0,
+      "companyBoost": 5,
+      "boostPerEmployeeOverMinimum": 0,
+      "copyFrom": null
+    }
+  ],
+  "useMurdererSocialClassRange": false,
+  "murdererClassRange": {
+    "x": 0,
+    "y": 1
+  },
+  "murdererClassRangeBoost": 0,
+  "useHexaco": false,
+  "hexaco": {
+    "outputMin": 1,
+    "outputMax": 10,
+    "enableFeminineMasculine": false,
+    "feminineMasculine": 0,
+    "enableHumility": false,
+    "humility": 0,
+    "enableEmotionality": false,
+    "emotionality": 0,
+    "enableExtraversion": false,
+    "extraversion": 0,
+    "enableAgreeableness": false,
+    "agreeableness": 0,
+    "enableConscientiousness": false,
+    "conscientiousness": 0,
+    "enableCreativity": false,
+    "creativity": 0
+  },
+  "requiresSniperVantageAtHome": false,
+  "weaponsPool": [
+    "REF:MurderWeaponsPool|Sniper"
+  ],
+  "blockDroppingWeapons": 1,
+  "allowAnywhere": false,
+  "allowHome": true,
+  "allowWork": 1,
+  "allowPublic": 1,
+  "allowStreets": 1,
+  "allowDen": false,
+  "acquaintedSuitabilityBoost": -5,
+  "attractedToSuitabilityBoost": -10,
+  "likeSuitabilityBoost": -20,
+  "sameWorkplaceBoost": 0,
+  "murdererIsTenantBoost": 0,
+  "victimRandomScoreRange": {
+    "x": 0,
+    "y": 2
+  },
+  "victimTraitModifiers": [],
+  "victimJobModifiers": [
+    {
+      "jobs": [
+        "REF:OccupationPreset|EnforcerCaptain"
+      ],
+      "jobBoost": -5,
+      "copyFrom": null
+    }
+  ],
+  "victimCompanyModifiers": [
+    {
+      "companies": [
+        "REF:CompanyPreset|EnforcerBranch"
+      ],
+      "mininumEmployees": 0,
+      "companyBoost": 50,
+      "boostPerEmployeeOverMinimum": 0,
+      "copyFrom": null
+    }
+  ],
+  "useVictimSocialClassRange": false,
+  "victimClassRange": {
+    "x": 0,
+    "y": 1
+  },
+  "victimClassRangeBoost": 0,
+  "monkierDDSMessageList": "",
+  "confessionalDDSResponses": [],
+  "MOleads": [],
+  "graffiti": [],
+  "callingCardPool": [
+    {
+      "item": "REF:InteractablePreset|CigaretteEnd",
+      "origin": "CallingCardOrigin",
+      "randomScoreRange": {
+        "x": 1,
+        "y": 1
+      },
+      "traitModifiers": [],
+      "copyFrom": null
+    }
+  ],
+  "playerTaunts": [],
+  "fileType": "MurderMO",
+  "name": "EnforcerHunter",
+  "copyFrom": "REF:MurderMO|ExCopSniper"
+}

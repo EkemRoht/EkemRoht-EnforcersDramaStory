@@ -1,0 +1,28 @@
+{
+  "presetName": "testGroup",
+  "groupType": 0,
+  "chance": 1,
+  "minMembers": 5,
+  "maxMembers": 10,
+  "requiredTraits": [],
+  "minimumExtraversion": 0,
+  "enableMeetUps": true,
+  "daysPerWeek": 7,
+  "timeRange": {
+    "x": 20,
+    "y": 22
+  },
+  "meetUpLength": 2,
+  "meetUpLocations": [
+    "REF:CompanyPreset|AmericanDiner"
+  ],
+  "meetUpGoal": "REF:AIGoalPreset|MeetUpEvent",
+  "reserveSeats": 0,
+  "useDistanceMultiplierModifier": 0,
+  "clues": [],
+  "vmails": [],
+  "fileType": "GroupPreset",
+  "name": "testGroup",
+  "type": "GroupPreset",
+  "copyFrom": "REF:GroupPreset|BookClub"
+}
