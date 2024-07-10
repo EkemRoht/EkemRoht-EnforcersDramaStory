@@ -3,50 +3,7 @@
   "caseType": 1,
   "disabled": false,
   "frequency": 1,
-  "murdererRandomScoreRange": {
-    "x": 0,
-    "y": 1
-  },
-  "murdererTraitModifiers": [],
-  "useHexaco": false,
-  "hexaco": {
-    "outputMin": 1,
-    "outputMax": 10,
-    "enableFeminineMasculine": false,
-    "feminineMasculine": 0,
-    "enableHumility": false,
-    "humility": 0,
-    "enableEmotionality": false,
-    "emotionality": 0,
-    "enableExtraversion": false,
-    "extraversion": 0,
-    "enableAgreeableness": false,
-    "agreeableness": 0,
-    "enableConscientiousness": false,
-    "conscientiousness": 0,
-    "enableCreativity": false,
-    "creativity": 0
-  },
-  "pickDen": 0,
-  "kidnapperTimeUntilKill": 5,
-  "minimumTimeBetweenMurders": 5,
-  "nonHomeMaximumOccupantsTrigger": 99,
-  "nonHomeMaximumOccupantsCancel": 99,
-  "requiresAcquirePhase": 1,
-  "acquirePassInteractable": false,
-  "acquirePassRoom": true,
-  "acquireActionSetup": [
-    {
-      "actions": [],
-      "condition": "ActionCondition",
-      "chance": 0,
-      "traitModifiers": [],
-      "statusModifiers": [],
-      "copyFrom": "REF:MurderPreset|Sniper"
-    }
-  ],
   "requiresResearchPhase": 1,
-  "killerMeetsVicim": 0,
   "researchPassInteractable": 0,
   "researchPassRoom": true,
   "researchActionSetup": [
@@ -62,49 +19,6 @@
     }
   ],
   "blockVictimFromLeavingLocation": true,
-  "travelSuccessTrigger": 1,
-  "travelPassInteractable": true,
-  "travelPassRoom": true,
-  "travelActionSetup": [],
-  "executePassInteractable": true,
-  "executePassRoom": true,
-  "executionActionSetup": [
-    {
-      "actions": [],
-      "condition": "ActionCondition",
-      "chance": 0,
-      "traitModifiers": [],
-      "statusModifiers": [],
-      "copyFrom": "REF:MurderPreset|Sniper"
-    }
-  ],
-  "postPassInteractable": true,
-  "postPassRoom": true,
-  "postActionSetup": [
-    {
-      "actions": [],
-      "condition": "ActionCondition",
-      "chance": 0,
-      "traitModifiers": [],
-      "statusModifiers": [],
-      "copyFrom": "REF:MurderPreset|Sniper"
-    }
-  ],
-  "escapePassInteractable": true,
-  "escapePassRoom": true,
-  "escapeActionSetup": [
-    {
-      "actions": [],
-      "condition": "ActionCondition",
-      "chance": 0,
-      "traitModifiers": [],
-      "statusModifiers": [],
-      "copyFrom": "REF:MurderPreset|Sniper"
-    }
-  ],
-  "leads": [],
-  "useCustomResolveQuestions": false,
-  "customResolveQuestions": [],
   "copyFrom": "REF:MurderPreset|Sniper",
   "fileType": "MurderPreset",
   "name": "hunter",
