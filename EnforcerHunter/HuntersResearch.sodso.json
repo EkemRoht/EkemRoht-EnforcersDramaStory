@@ -1,0 +1,19 @@
+{
+  "presetName": "HuntersResearch",
+  "defaultKey": 0,
+  "debug": 1,
+  "filterSearchUsingRoomType": true,
+  "searchRoomType": [
+    "REF:RoomTypePreset|Hallway"
+  ],
+  "completableAction": true,
+  "minutesTakenRange": {
+    "x": 30,
+    "y": 60
+  },
+  "runIfSeesPlayer": false,
+  "fileType": "AIActionPreset",
+  "name": "HuntersResearch",
+  "type": "AIActionPreset",
+  "copyFrom": "REF:AIActionPreset|SearchArea"
+}

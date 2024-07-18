@@ -1,0 +1,26 @@
+{
+  "presetName": "SM-intro",
+  "rewardModifier": 0,
+  "blocks": [
+    {
+      "name": "",
+      "elementType": "SideMissionElementType",
+      "dialogReference": "",
+      "tagReference": "JobTag",
+      "spawnItems": [],
+      "enableUpdateWhileTalking": false,
+      "objectiveDelay": 0,
+      "validItems": [],
+      "validFurniture": [],
+      "disableOnDifficulties": [],
+      "onlyCompativleWithIntros": [],
+      "onlyCompatibleWithHandIns": [],
+      "triggerFailIfItemDestroyed": [],
+      "copyFrom": null
+    }
+  ],
+  "fileType": "SideMissionIntroPreset",
+  "name": "SM-intro",
+  "type": "SideMissionIntroPreset",
+  "copyFrom": null
+}

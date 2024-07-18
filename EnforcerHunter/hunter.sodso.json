@@ -9,7 +9,7 @@
   "researchActionSetup": [
     {
       "actions": [
-        "REF:AIActionPreset|GoToEnforcer"
+        "REF:AIActionPreset|HuntersResearch"
       ],
       "condition": "ActionCondition",
       "chance": 1,

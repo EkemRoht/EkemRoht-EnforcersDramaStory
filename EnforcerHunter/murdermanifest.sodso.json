@@ -1,11 +1,9 @@
 {
   "enabled": true,
   "fileOrder": [
+    "REF:HuntersResearch",
     "REF:hunter",
-    "REF:testmurd",
-    "REF:enforcerhunter",
-    "REF:NewHunter",
-    "REF:TestMur"
+    "REF:enforcerhunter"
   ],
   "version": 1
 }

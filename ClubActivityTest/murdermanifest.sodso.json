@@ -4,7 +4,9 @@
     "REF:TestMeetUpEvent",
     "REF:testGroup",
     "REF:Status",
-    "REF:InterActions"
+    "REF:InterActions",
+    "REF:SM-intro",
+    "REF:SM-handIn"
   ],
   "version": 1
 }

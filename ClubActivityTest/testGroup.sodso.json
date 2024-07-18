@@ -9,10 +9,10 @@
   "enableMeetUps": true,
   "daysPerWeek": 7,
   "timeRange": {
-    "x": 20,
-    "y": 22
+    "x": 19,
+    "y": 21
   },
-  "meetUpLength": 2,
+  "meetUpLength": 1,
   "meetUpLocations": [
     "REF:CompanyPreset|AmericanDiner"
   ],

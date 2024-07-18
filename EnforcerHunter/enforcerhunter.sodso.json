@@ -3,7 +3,7 @@
   "notes": "EnforcerHunter",
   "disabled": false,
   "compatibleWith": [
-    "REF:MurderPreset|Sniper"
+    "REF:MurderPreset|hunter"
   ],
   "updateThis": false,
   "pickRandomScoreRange": {
@@ -81,6 +81,15 @@
       ],
       "mininumEmployees": 0,
       "companyBoost": 5,
+      "boostPerEmployeeOverMinimum": 0,
+      "copyFrom": null
+    },
+    {
+      "companies": [
+        "REF:CompanyPreset|EnforcerBranch"
+      ],
+      "mininumEmployees": 0,
+      "companyBoost": -100,
       "boostPerEmployeeOverMinimum": 0,
       "copyFrom": null
     }

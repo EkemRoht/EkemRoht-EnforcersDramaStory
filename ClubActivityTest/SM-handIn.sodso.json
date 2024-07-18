@@ -1,0 +1,59 @@
+{
+  "presetName": "SM-handIn",
+  "rewardModifier": 0,
+  "postersDoor": false,
+  "cityHall": false,
+  "blocks": [
+    {
+      "name": "",
+      "elementType": "SideMissionElementType",
+      "dialogReference": "",
+      "tagReference": "JobTag",
+      "spawnItems": [
+        {
+          "name": "",
+          "findExisting": false,
+          "compatibleWithMotives": [],
+          "compatibleWithAllMotives": false,
+          "chance": 0,
+          "useTraits": false,
+          "traitModifiers": [],
+          "useIf": false,
+          "ifTag": "JobTag",
+          "useOrGroup": false,
+          "orGroup": "JobTag",
+          "chanceRatio": 0,
+          "disableOnDifficulties": [],
+          "itemTag": "JobTag",
+          "spawnItem": "REF:InteractablePreset|21AmmoLarge",
+          "vmailThread": "",
+          "vmailProgressThreshold": {
+            "x": 0,
+            "y": 0
+          },
+          "where": "JobSpawnWhere",
+          "belongsTo": "LeadCitizen",
+          "writer": "LeadCitizen",
+          "receiver": "LeadCitizen",
+          "security": 0,
+          "priority": 0,
+          "ownershipRule": "OwnedPlacementRule",
+          "copyFrom": null
+        }
+      ],
+      "enableUpdateWhileTalking": false,
+      "objectiveDelay": 0,
+      "validItems": [],
+      "validFurniture": [],
+      "disableOnDifficulties": [],
+      "onlyCompativleWithIntros": [],
+      "onlyCompatibleWithHandIns": [],
+      "triggerFailIfItemDestroyed": [],
+      "copyFrom": null
+    }
+  ],
+  "fileType": "SideMissionHandInPreset",
+  "name": "SM-handIn",
+  "type": "SideMissionHandInPreset",
+  "copyFrom": "REF:SideMissionHandInPreset|SlipUnderDoor"
+}
